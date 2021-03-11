@@ -1,0 +1,51 @@
+/* CSS Externo */
+a{
+	color: yellow;
+	text-decoration: none;
+	background-color: blue;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+a:hover{
+	color: blue;
+	background-color: yellow;
+	/*font-weight: bold;*/
+}
+
+a:visited{
+	color: black;
+	background-color: white;
+}
+
+/* Enlaces para los capitulos */
+a.capitulos{
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/* Enlaces para el menu principal */
+a.menu{
+	color: navy;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/* Imagen */
+div.div01{
+	background-color: #FFE4C4;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+p.p_div01{
+	color: black;
+}

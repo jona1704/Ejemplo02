@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejemplo 02</title>
+	<!-- Cascade Stylesheet -->
+	<!-- -->
+	<link rel="stylesheet" href="css/estilo.css">	
+	<!-- CSS Interno-->
+	<style>
+		p{
+			color: red;
+			font-weight: bold;
+		}
+
+		p.parrafo1{
+			background-color: yellow;
+			font-family: arial,sans-serif;
+			font-size: 15px;
+		}
+
+		p.parrafo2{
+			background-color: lime;
+			font-family: verdana,sans-serif;
+			font-size: 16px;
+		}
+
+		p.parrafo3{
+			background-color: violet;
+			font-family: times,sans-serif;
+			font-size: 17px;
+			color: blue;
+		}
+	</style>	 
+</head>
+<body style="background-color: cyan"> <!-- CSS Enlinea (Inline) -->
+	<h1 style="color: blue;">Desarrollo Web</h1>
+	<p class="parrafo1">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quae quam deserunt eum deleniti voluptas esse eligendi dignissimos dolores magnam, veritatis at provident ex delectus earum consequuntur dolorem nihil. Error, dolore.</p>
+	<p class="parrafo2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti neque asperiores expedita! Numquam aperiam, placeat. Hic laboriosam minima dolorum debitis? Autem iste saepe perspiciatis, quia sed natus molestiae, beatae voluptatem?</p>
+	<p class="parrafo3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti neque asperiores expedita! Numquam aperiam, placeat. Hic laboriosam minima dolorum debitis? Autem iste saepe perspiciatis, quia sed natus molestiae, beatae voluptatem?</p>
+	<h2>Enlaces (Links o Vínculos)</h2>
+	<a href="https://mac.acatlan.unam.mx/" target="_blank">Enlace a la página de Mac</a>
+	<!-- 
+		Targets:
+			_self: predeterminado
+			_blank: abre el enlace en otra pestaña
+			_parent: abre en el frame padre
+			_top: abre el documento en todo el cuerpo de la ventana
+	-->
+	<!-- Creando capitulos -->
+	<h1 id="menu_principal">Creando capitulados</h1>
+	<!-- Listas -->
+	<ol>
+		<li><a class="capitulos" href="#c1">Capítulo 1</a></li>
+		<li><a class="capitulos" href="#c2">Capítulo 2</a></li>
+		<li><a class="capitulos" href="#c3">Capítulo 3</a></li>
+		<li><a class="capitulos" href="#c4">Capítulo 4</a></li>
+	</ol>
+	<br><br><br>
+	<h2 id="c1">Capítulo 1</h2>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p><a class="menu" href="#menu_principal">Menú principal</a></p>
+	<h2 id="c2">Capítulo 2</h2>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p><a class="menu" href="#menu_principal">Menú principal</a></p>
+	<h2 id="c3">Capítulo 3</h2>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p><a class="menu" href="#menu_principal">Menú principal</a></p>
+	<h2 id="c4">Capítulo 4</h2>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatum unde, ut sequi ipsa. Ullam praesentium consequuntur doloremque et officia nesciunt dignissimos, sequi, dolorum. Error odit voluptatibus qui, nulla sapiente.</p>
+	<p><a class="menu" href="#menu_principal">Menú principal</a></p>
+	<br><br>
+	<div class="div01">
+		<img src="img/sarah-brown-YC954YGaw1E-unsplash.jpg" alt="Imagen Ecológica">
+		<p class="p_div01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, earum ad, at natus ratione nisi commodi corporis! Dicta voluptatibus quia ab nobis excepturi maxime sed placeat odio veniam nihil.</p>
+		<p class="p_div01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, earum ad, at natus ratione nisi commodi corporis! Dicta voluptatibus quia ab nobis excepturi maxime sed placeat odio veniam nihil.</p>
+		<p class="p_div01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, earum ad, at natus ratione nisi commodi corporis! Dicta voluptatibus quia ab nobis excepturi maxime sed placeat odio veniam nihil.</p>
+		<p class="p_div01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, earum ad, at natus ratione nisi commodi corporis! Dicta voluptatibus quia ab nobis excepturi maxime sed placeat odio veniam nihil.</p>
+		<p class="p_div01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates accusantium, earum ad, at natus ratione nisi commodi corporis! Dicta voluptatibus quia ab nobis excepturi maxime sed placeat odio veniam nihil.</p>
+	</div>
+</body>
+</html>
