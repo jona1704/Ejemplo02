@@ -2,4 +2,6 @@
 
 ![](https://www.acatlan.unam.mx/identidad-acatlan/img/Logotipos/Logotipo/logo-dorado.jpg)
 
-Esta es la segunda página web del curso de Desarrollo Web 2602
+##### ESTA ES LA SEGUNDA PÁGINA WEB DEL CURSO DE DESARROLLO WEB 2602
+
+Ir a [Fes Acatlán](https://www.acatlan.unam.mx/ "Fes Acatlán")
